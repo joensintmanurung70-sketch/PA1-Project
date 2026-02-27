@@ -509,33 +509,32 @@
         </div>
     </div>
 
-    <!-- NAVBAR -->
-    <nav>
-        <div class="nav-inner">
-            <a href="#" class="nav-brand">
-                <div class="icon"><i class="fas fa-microscope"></i></div>
-                <div class="label">BIOPROSES <span>IT DEL</span></div>
-            </a>
+                <div class="hidden md:flex space-x-4 font-semibold h-full">
+                    
+                    <a href="#" class="flex items-center text-green-600 border-b-4 border-green-600 px-1 text-sm">Beranda</a>
 
-            <ul class="nav-links">
-                <li><a href="#" class="active">Beranda</a></li>
-
-                <!-- PROFIL -->
-                <li>
-                    <button>Profil <i class="fas fa-chevron-down" style="font-size:0.6rem"></i></button>
-                    <div class="dropdown">
-                        <div class="dropdown-grid cols-2">
-                            <div class="drop-section">
-                                <h4>Tentang Program</h4>
-                                <a href="#"><i class="fas fa-caret-right"></i> Visi &amp; Misi</a>
-                                <a href="#"><i class="fas fa-caret-right"></i> Sejarah</a>
-                                <a href="#"><i class="fas fa-caret-right"></i> Akreditasi</a>
-                            </div>
-                            <div class="drop-section">
-                                <h4>Akademik</h4>
-                                <a href="#"><i class="fas fa-caret-right"></i> Tujuan / CPL</a>
-                                <a href="#"><i class="fas fa-caret-right"></i> Profil Lulusan</a>
-                                <a href="#"><i class="fas fa-caret-right"></i> Dosen &amp; Staff</a>
+                    <div class="group nav-link-wrapper">
+                        <button class="hover:text-green-600 transition flex items-center gap-1 text-sm">
+                            Profil <i class="fas fa-chevron-down text-[10px] transition-transform group-hover:rotate-180"></i>
+                        </button>
+                        <div class="mega-menu absolute top-full left-0 w-full bg-white shadow-xl border-t-4 border-green-600 p-8">
+                            <div class="max-w-7xl mx-auto grid grid-cols-4 gap-8">
+                                <div>
+                                    <h4 class="font-bold text-green-800 mb-3 uppercase text-xs border-b pb-2">Tentang</h4>
+                                    <ul class="space-y-2 text-gray-600 text-sm font-normal">
+                                        <li><a href="#" class="hover:text-green-600 flex items-center gap-2"><i class="fas fa-caret-right text-[10px]"></i> Visi & Misi</a></li>
+                                        <li><a href="#" class="hover:text-green-600 flex items-center gap-2"><i class="fas fa-caret-right text-[10px]"></i> Sejarah</a></li>
+                                        <li><a href="#" class="hover:text-green-600 flex items-center gap-2"><i class="fas fa-caret-right text-[10px]"></i> Akreditasi</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-green-800 mb-3 uppercase text-xs border-b pb-2">Akademik</h4>
+                                    <ul class="space-y-2 text-gray-600 text-sm font-normal">
+                                        <li><a href="#" class="hover:text-green-600 flex items-center gap-2"><i class="fas fa-caret-right text-[10px]"></i> Tujuan / CPL</a></li>
+                                        <li><a href="#" class="hover:text-green-600 flex items-center gap-2"><i class="fas fa-caret-right text-[10px]"></i> Profil Lulusan</a></li>
+                                        <li><a href="#" class="hover:text-green-600 flex items-center gap-2"><i class="fas fa-caret-right text-[10px]"></i> Dosen & Staff</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
