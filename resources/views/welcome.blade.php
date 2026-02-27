@@ -56,9 +56,21 @@
                                 <div>
                                     <h4 class="font-bold text-green-800 mb-3 uppercase text-xs border-b pb-2">Tentang</h4>
                                     <ul class="space-y-2 text-gray-600 text-sm font-normal">
-                                        <li><a href="#" class="hover:text-green-600 flex items-center gap-2"><i class="fas fa-caret-right text-[10px]"></i> Visi & Misi</a></li>
-                                        <li><a href="#" class="hover:text-green-600 flex items-center gap-2"><i class="fas fa-caret-right text-[10px]"></i> Sejarah</a></li>
-                                        <li><a href="#" class="hover:text-green-600 flex items-center gap-2"><i class="fas fa-caret-right text-[10px]"></i> Akreditasi</a></li>
+<li>
+    <a href="{{ route('visi.misi') }}" class="hover:text-green-600 flex items-center gap-2">
+        <i class="fas fa-caret-right text-[10px]"></i> Visi & Misi
+    </a>
+</li>
+<li>
+    <a href="{{ route('sejarah') }}" class="hover:text-green-600 flex items-center gap-2">
+        <i class="fas fa-caret-right text-[10px]"></i> Sejarah
+    </a>
+</li>
+<li>
+    <a href="{{ route('akreditasi') }}" class="hover:text-green-600 flex items-center gap-2">
+        <i class="fas fa-caret-right text-[10px]"></i> Akreditasi
+    </a>
+</li>
                                     </ul>
                                 </div>
                                 <div>
